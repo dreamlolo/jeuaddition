@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rule">"Add10blocks V20. \n
+        Le but du jeu est d'éliminer les blocs. Pour cela il faut que le total des points fasse 10, horizontalement ou verticalement avec deux pièves ou plus.\n
+        Pour déplacer les blocs cliquez à gauche ou à droite de l'écran\n
+        Pour les faire descendre plus vite, cliquez en bas de l'écran\n
+        Mode tortue: la vitesse augmente moins vite et il y a une colonne de plus\n
+        Mode Lièvre: mode normal."</string>
+    <string name="app_name">Add10Blocks</string>
+    <string name="title_activity_menu_game">Menu</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ruleButton">R\nè\ng\nl\ne\ns</string>
+</resources>

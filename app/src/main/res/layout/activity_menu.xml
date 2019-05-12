@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/fondmenu"
+    android:orientation="horizontal"
+    android:screenOrientation="landscape"
+    tools:context=".Menu">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+
+        android:fontFamily="@font/cherrycreamsoda"
+        android:text="Add10Blocks"
+
+        android:background="@drawable/cast_expanded_controller_actionbar_bg_gradient_light"
+        android:textColor="@color/cast_expanded_controller_text_color"
+        android:textSize="100sp"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="100sp"
+        app:autoSizeStepGranularity="2sp"
+        />
+
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+             <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+               >
+
+
+                <Button
+                    android:id="@+id/buttonLaunchChildGame"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:textColor="#FFB11E"
+                    android:shadowColor="#000"
+                    android:shadowDx="10"
+                    android:shadowDy="5"
+                    android:shadowRadius="1.8"
+
+                    android:alpha="0.99"
+                    android:background="@drawable/persojeujdditionchild4"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="100sp"
+                    app:autoSizeStepGranularity="2sp"
+                    />
+
+                <Button
+                    android:id="@+id/buttonLaunchAdultGame"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textColor="#FFB11E"
+                    android:shadowColor="#000"
+                    android:shadowDx="10"
+                    android:shadowDy="5"
+                    android:shadowRadius="1.8"
+
+                    android:background="@drawable/persojeujdditionadult4"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="100sp"
+                    app:autoSizeStepGranularity="2sp"
+                    />
+
+
+             </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/buttonVictoryChild"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/victoire"
+                android:textSize="40sp"
+                android:textColor="#FFB11E"
+                android:shadowColor="#000"
+                android:shadowDx="6"
+                android:shadowDy="6"
+                android:shadowRadius="1"
+                />
+
+            <Button
+                android:id="@+id/buttonVictoryAdult"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/victoire"
+                android:textSize="40sp"
+                android:textColor="#FFB11E"
+                android:shadowColor="#000"
+                android:shadowDx="6"
+                android:shadowDy="6"
+                android:shadowRadius="1"/>
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/buttonRules"
+                android:fontFamily="@font/cherrycreamsoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.99"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:text="@string/ruleButton"
+                android:textSize="35sp"
+
+                android:background="@drawable/buttonwhite"
+                android:visibility="visible"
+
+                android:textColor="#FFB11E"
+                android:shadowColor="#000"
+                android:shadowDx="6"
+                android:shadowDy="6"
+                android:shadowRadius="1"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeMaxTextSize="100sp"
+                app:autoSizeStepGranularity="2sp"
+                />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/buttonSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.99"
+                android:layout_margin="10dp"
+                android:layout_weight="0.1"
+                android:textStyle="normal|bold"
+
+                android:textSize="35sp"
+
+                android:background="@drawable/ic_volume_down_black_24dp"
+                android:visibility="visible"
+
+
+                />
+
+
+        <Button
+            android:id="@+id/buttonQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.99"
+            android:fontFamily="@font/cherrycreamsoda"
+            android:layout_weight="0.9"
+            android:textStyle="normal|bold"
+            android:text="Q\nu\ni\nt"
+            android:textSize="35sp"
+            android:background="@drawable/buttonwhite"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:textColor="#FFB11E"
+            android:shadowColor="#000"
+            android:shadowDx="6"
+            android:shadowDy="6"
+            android:shadowRadius="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="2sp"
+             />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rule">"El objetivo del juego es eliminar los bloques. Para ello, los puntos totales deben ser 10, horizontal o verticalmente.\n
+        Para mover los bloques haga clic en la parte izquierda o derecha de la pantalla\n
+        Para bajarlos más rápido, haga clic en la parte inferior de la pantalla\n
+        Modo tortuga: la velocidad aumenta menos rápidamente y hay una columna más\n
+        Modo liebre: modo normal.
+"</string>
+    <string name="app_name">Add10Blocks</string>
+    <string name="title_activity_menu_game">Menu</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ruleButton">R\ne\ng\nl\na\ns</string>
+</resources>

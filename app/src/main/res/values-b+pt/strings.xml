@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rule">"O objetivo do jogo é eliminar os blocos. Para que isso aconteça, o total de pontos deve ser 10, horizontal ou verticalmente.\n
+        Para mover os blocos clique no lado esquerdo ou direito da tela\n
+        Para reduzi-los mais rapidamente, clique na parte inferior da tela\n
+        Modo tartaruga: a velocidade aumenta menos rapidamente e há mais uma coluna\n
+        Modo de lebre: modo normal."</string>
+    <string name="app_name">Add10Blocks</string>
+    <string name="title_activity_menu_game">Menu</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ruleButton">N\no\nr\nm\na\ns</string>
+</resources>

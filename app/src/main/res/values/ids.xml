@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">1097685598259</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.mesjeux.jeuaddition</string>
+    <!-- leaderboard Meilleurs scores -->
+    <string name="leaderboard_meilleurs_scores" translatable="false">CgkIs4CkmfkfEAIQAg</string>
+    <!-- leaderboard best trick -->
+    <string name="leaderboard_best_trick" translatable="false">CgkIs4CkmfkfEAIQBA</string>
+    <!-- leaderboard Meilleurs scores niveau facile -->
+    <string name="leaderboard_meilleurs_scores_niveau_facile" translatable="false">CgkIs4CkmfkfEAIQBQ</string>
+    <!-- leaderboard meilleure combinaison niveau facile -->
+    <string name="leaderboard_meilleure_combinaison_niveau_facile" translatable="false">CgkIs4CkmfkfEAIQBg</string>
+    <!-- event scoreLeaderboard -->
+    <string name="event_scoreleaderboard" translatable="false">CgkIs4CkmfkfEAIQAQ</string>
+</resources>

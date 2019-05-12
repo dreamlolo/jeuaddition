@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rule">"Das Ziel des Spiels ist es, die Blöcke zu beseitigen. Dazu müssen die Gesamtpunkte 10 sein, horizontal oder vertikal.\n
+        Um die Blöcke zu verschieben, klicken Sie auf die linke oder rechte Seite des Bildschirms.\n
+        Um sie schneller zu senken, klicken Sie auf den unteren Teil des Bildschirms.\n
+        Schildkrötenmodus: Die Geschwindigkeit steigt weniger schnell an und es gibt eine weitere Spalte.\n
+        Hasenmodus: Normalmodus."</string>
+    <string name="app_name">Add10Blocks</string>
+    <string name="title_activity_menu_game">Menu</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ruleButton">R\ne\ng\ne\nl\nn</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Add10Blocks</string>
+    <string name="title_activity_menu_game">menuGame</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="rule">"The goal of the game is to eliminate the blocks. To do that, the total points must be 10, horizontally or vertically. \n
+        To move the blocks click on the left or right of the screen\n
+        To bring them down faster, click at the bottom of the screen\n
+        Turtle mode: the speed increases less quickly and there is one more column\n
+        Hare mode: normal mode."</string>
+    <string name="ruleButton">R\nU\nL\nE\nS</string>
+</resources>
